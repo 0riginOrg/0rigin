@@ -42,7 +42,7 @@
     "@origin/graphql": "^0.1.1",
     "@origin/mobile-bridge": "^0.1.0",
     "@origin/services": "^0.1.0",
-    "@sentry/browser": "^5.4.3",
+    "@sentry/browser": "^6.0.0",
     "apollo-cache-persist": "^0.1.1",
     "babel-plugin-module-resolver": "^4.0.0",
     "blueimp-load-image": "^2.22.0",

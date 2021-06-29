@@ -32,7 +32,7 @@
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "@origin/graphql": "^0.1.1",
-    "@sentry/browser": "^5.4.3",
+    "@sentry/browser": "^6.0.0",
     "acorn": "^7.0.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-module-resolver": "^4.0.0",
