@@ -49,6 +49,12 @@ contract ProxyFactory {
         assembly {
             proxy := create2(0x0, add(0x20, deploymentData), mload(deploymentData), salt)
         }
+
+        // create2 failed
+        if (address(proxy) == address(0)) {
+            revert("proxy-deploy-failed");
+        }
+
         if (initializer.length > 0)
             // solium-disable-next-line security/no-inline-assembly
             assembly {
@@ -73,6 +79,12 @@ contract ProxyFactory {
         assembly {
             proxy := create2(0x0, add(0x20, deploymentData), mload(deploymentData), salt)
         }
+
+        // create2 failed
+        if (address(proxy) == address(0)) {
+            revert("proxy-deploy-failed");
+        }
+
         if (initializer.length > 0) {
             uint256 value = msg.value;
             // solium-disable-next-line security/no-inline-assembly
