@@ -55,7 +55,7 @@
     "graphql-fields": "^2.0.3",
     "graphql-subscriptions": "^1.1.0",
     "graphql-tag": "^2.10.1",
-    "graphql-tools": "^4.0.5",
+    "graphql-tools": "^7.0.0",
     "ipfs-only-hash": "^1.0.2",
     "json-stable-stringify": "^1.0.1",
     "lodash-es": "^4.17.11",
