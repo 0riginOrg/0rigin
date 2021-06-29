@@ -29,7 +29,7 @@
     "DApp"
   ],
   "dependencies": {
-    "@google-cloud/pubsub": "1.5.0",
+    "@google-cloud/pubsub": "1.7.3",
     "@origin/auth-utils": "^0.1.0",
     "@origin/growth-shared": "^0.1.0",
     "@origin/identity": "^0.1.0",
@@ -64,10 +64,10 @@
     "web3": "1.0.0-beta.34"
   },
   "devDependencies": {
-    "chai": "4.2.0",
+    "chai": "4.3.4",
     "eslint": "6.8.0",
-    "mocha": "7.0.1",
-    "nodemon": "2.0.2",
+    "mocha": "7.2.0",
+    "nodemon": "2.0.7",
     "supertest": "4.0.2"
   },
   "prettier": {

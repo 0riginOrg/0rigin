@@ -22,14 +22,14 @@
   },
   "dependencies": {
     "@origin/contracts": "^0.8.6",
-    "bignumber.js": "9.0.0",
+    "bignumber.js": "9.0.1",
     "truffle-hdwallet-provider": "0.0.6",
     "web3": "1.0.0-beta.34"
   },
   "devDependencies": {
-    "chai": "4.2.0",
+    "chai": "4.3.4",
     "ganache-core": "2.4.0",
-    "mocha": "7.0.1",
+    "mocha": "7.2.0",
     "openzeppelin-solidity": "^1.10.0",
     "prettier": "1.19.1",
     "solc": "0.5.14"

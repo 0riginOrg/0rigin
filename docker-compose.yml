@@ -5,7 +5,7 @@ services:
   postgres:
     container_name: postgres
     restart: always
-    image: postgres:10.12
+    image: postgres:10.17
     environment:
       - POSTGRES_USER=origin
       - POSTGRES_PASSWORD=origin
@@ -15,7 +15,7 @@ services:
 
   elasticsearch:
     container_name: elasticsearch
-    image: docker.elastic.co/elasticsearch/elasticsearch:6.8.8
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.8.16
     ports:
       - "9200:9200"
     environment:

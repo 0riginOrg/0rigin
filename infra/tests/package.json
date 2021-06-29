@@ -14,7 +14,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "chai": "4.2.0",
-    "mocha": "7.0.1"
+    "chai": "4.3.4",
+    "mocha": "7.2.0"
   }
 }

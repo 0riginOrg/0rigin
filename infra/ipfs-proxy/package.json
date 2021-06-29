@@ -25,13 +25,13 @@
   "dependencies": {
     "busboy": "0.3.1",
     "file-type": "12.4.2",
-    "http-proxy": "1.18.0",
-    "ipfs": "0.40.0",
+    "http-proxy": "1.18.1",
+    "ipfs": "0.55.3",
     "ipfsd-ctl": "2.1.0",
     "is-json": "2.0.1",
     "logplease": "1.2.15",
     "per-env": "1.0.2",
-    "superagent": "5.2.1",
+    "superagent": "5.3.1",
     "zlib": "1.0.5"
   },
   "devDependencies": {
@@ -39,10 +39,10 @@
     "@babel/preset-env": "7.9.5",
     "@babel/register": "7.9.0",
     "autocannon": "4.6.0",
-    "chai": "4.2.0",
-    "form-data": "3.0.0",
-    "mocha": "7.0.1",
-    "nodemon": "2.0.2",
+    "chai": "4.3.4",
+    "form-data": "3.0.1",
+    "mocha": "7.2.0",
+    "nodemon": "2.0.7",
     "supertest": "4.0.2",
     "webrtcsupport": "2.2.0"
   },
