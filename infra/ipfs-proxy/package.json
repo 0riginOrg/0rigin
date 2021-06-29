@@ -25,7 +25,7 @@
   "dependencies": {
     "busboy": "0.3.1",
     "file-type": "12.4.2",
-    "http-proxy": "1.18.0",
+    "http-proxy": "1.18.1",
     "ipfs": "0.40.0",
     "ipfsd-ctl": "2.1.0",
     "is-json": "2.0.1",

@@ -20,7 +20,7 @@
   "dependencies": {
     "commander": "^4.0.0",
     "ganache-core": "2.4.0",
-    "http-proxy": "1.18.0",
+    "http-proxy": "1.18.1",
     "ipfs": "^0.40.0",
     "ipfs-api": "^26.1.2",
     "memdown": "^5.0.0"
