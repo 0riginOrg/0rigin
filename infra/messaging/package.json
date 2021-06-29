@@ -34,7 +34,7 @@
     "@babel/core": "^7.4.5",
     "@babel/polyfill": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
-    "@babel/register": "7.9.0",
+    "@babel/register": "7.14.5",
     "@origin/graphql": "^0.1.0",
     "cross-fetch": "^3.0.4",
     "dotenv": "^8.0.0",
@@ -63,7 +63,7 @@
     "web3-utils": "^1.2.1"
   },
   "devDependencies": {
-    "@babel/node": "7.8.7",
+    "@babel/node": "7.14.5",
     "chai": "4.2.0",
     "crypto-js": "3.1.9-1",
     "eslint": "6.8.0",
