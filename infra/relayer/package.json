@@ -3,7 +3,7 @@
   "description": "Origin relayer service",
   "version": "0.1.0",
   "engines": {
-    "node": "10.x"
+    "node": "14.x"
   },
   "author": "Origin Protocol Inc",
   "license": "MIT",
@@ -16,25 +16,25 @@
     "@origin/web3-provider": "^0.1.0",
     "@sentry/node": "5.15.4",
     "cors": "2.8.5",
-    "dotenv": "8.2.0",
+    "dotenv": "10.0.0",
     "envkey": "1.2.7",
-    "ethereumjs-util": "6.2.0",
+    "ethereumjs-util": "7.0.10",
     "express": "4.17.1",
-    "express-prom-bundle": "5.1.5",
+    "express-prom-bundle": "6.3.6",
     "logplease": "1.2.15",
     "per-env": "1.0.2",
-    "pg": "7.18.1",
-    "prom-client": "11.5.3",
+    "pg": "8.6.0",
+    "prom-client": "13.1.0",
     "redis": "2.8.0",
-    "sequelize": "5.21.4",
-    "sequelize-cli": "5.5.1",
+    "sequelize": "6.6.2",
+    "sequelize-cli": "6.2.0",
     "web3": "1.0.0-beta.34"
   },
   "devDependencies": {
-    "chalk": "3.0.0",
-    "mocha": "7.0.1",
+    "chalk": "4.1.1",
+    "mocha": "9.0.0",
     "nodemon": "2.0.2",
-    "prettier": "1.19.1"
+    "prettier": "2.3.1"
   },
   "scripts": {
     "lint": "eslint . && npm run prettier:check",

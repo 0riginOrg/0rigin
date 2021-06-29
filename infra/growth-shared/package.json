@@ -3,7 +3,7 @@
   "description": "Shared growth functionality: growth event migration files, models and resources",
   "version": "0.1.0",
   "engines": {
-    "node": "10.x"
+    "node": "14.x"
   },
   "author": "Origin Protocol Inc",
   "license": "MIT",
@@ -11,9 +11,9 @@
     "url": "https://github.com/OriginProtocol/origin/issues"
   },
   "dependencies": {
-    "pg": "7.18.1",
-    "sequelize": "5.21.4",
-    "sequelize-cli": "5.5.1",
+    "pg": "8.6.0",
+    "sequelize": "6.6.2",
+    "sequelize-cli": "6.2.0",
     "web3": "1.0.0-beta.34"
   },
   "scripts": {
@@ -27,7 +27,7 @@
     "singleQuote": true
   },
   "devDependencies": {
-    "eslint": "6.8.0",
-    "prettier": "1.19.1"
+    "eslint": "7.28.0",
+    "prettier": "2.3.1"
   }
 }

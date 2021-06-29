@@ -47,23 +47,23 @@
     "apollo-server-express": "^2.9.15",
     "cross-fetch": "^3.0.4",
     "dayjs": "^1.8.14",
-    "dotenv": "^8.0.0",
+    "dotenv": "^10.0.0",
     "envkey": "^1.2.6",
     "express": "^4.17.1",
-    "express-prom-bundle": "^5.1.5",
-    "graphql": "^14.4.0",
+    "express-prom-bundle": "^6.0.0",
+    "graphql": "^15.0.0",
     "graphql-fields": "^2.0.3",
     "graphql-subscriptions": "^1.1.0",
     "graphql-tag": "^2.10.1",
     "graphql-tools": "^4.0.5",
-    "ipfs-only-hash": "^1.0.2",
+    "ipfs-only-hash": "^4.0.0",
     "json-stable-stringify": "^1.0.1",
     "lodash-es": "^4.17.11",
-    "mocha": "^7.0.0",
+    "mocha": "^9.0.0",
     "morgan": "^1.9.1",
     "node-fetch": "^2.6.0",
-    "prettier": "^1.18.2",
-    "prom-client": "^11.5.3",
+    "prettier": "^2.0.0",
+    "prom-client": "^13.0.0",
     "rlp": "^2.2.3",
     "subscriptions-transport-ws": "^0.9.16",
     "web3": "1.0.0-beta.34"
@@ -97,6 +97,6 @@
     "@babel/preset-react": "7.9.4",
     "@babel/runtime": "7.9.2",
     "debug": "4.1.1",
-    "webpack": "4.41.5"
+    "webpack": "5.38.1"
   }
 }

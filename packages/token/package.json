@@ -5,7 +5,7 @@
   "license": "MIT",
   "version": "0.1.0",
   "engines": {
-    "node": "10.x"
+    "node": "14.x"
   },
   "repository": {
     "type": "git",
@@ -29,9 +29,9 @@
   "devDependencies": {
     "chai": "4.2.0",
     "ganache-core": "2.4.0",
-    "mocha": "7.0.1",
+    "mocha": "9.0.0",
     "openzeppelin-solidity": "^1.10.0",
-    "prettier": "1.19.1",
+    "prettier": "2.3.1",
     "solc": "0.5.14"
   },
   "prettier": {

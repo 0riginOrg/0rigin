@@ -1,13 +1,13 @@
 defaults: &defaults
   docker:
-    - image: circleci/node:10-browsers
+    - image: circleci/node:16-browsers
   working_directory: ~/origin
 
 # Node.js and postgres container
 db: &db
   docker:
-    - image: circleci/node:10-browsers
-    - image: circleci/postgres:9.6-alpine-ram
+    - image: circleci/node:16-browsers
+    - image: circleci/postgres:12.1-alpine-ram
       environment:
         POSTGRES_USER: postgres
         POSTGRES_DB: circle_ci_test
@@ -18,16 +18,16 @@ db: &db
 # Node.js and redis container
 redis: &redis
   docker:
-    - image: circleci/node:10-browsers
-    - image: circleci/redis:5
+    - image: circleci/node:16-browsers
+    - image: circleci/redis:6
   working_directory: ~/origin
 
 # Node.js, postgres and redis container
 dbandredis: &dbandredis
   docker:
-    - image: circleci/node:10-browsers
-    - image: circleci/redis:5
-    - image: circleci/postgres:9.6-alpine-ram
+    - image: circleci/node:16-browsers
+    - image: circleci/redis:6
+    - image: circleci/postgres:12.1-alpine-ram
       environment:
         POSTGRES_USER: postgres
         POSTGRES_DB: circle_ci_test
@@ -149,9 +149,9 @@ jobs:
 
   Discovery:
     docker:
-      - image: circleci/node:10-browsers
-      - image: circleci/redis:5
-      - image: circleci/postgres:9.6-alpine-ram
+      - image: circleci/node:16-browsers
+      - image: circleci/redis:6
+      - image: circleci/postgres:12.1-alpine-ram
         environment:
           POSTGRES_USER: postgres
           POSTGRES_DB: circle_ci_test
@@ -260,7 +260,7 @@ jobs:
 
   Builds:
     docker:
-      - image: circleci/node:10-buster
+      - image: circleci/node:16-buster
     working_directory: ~/origin
     steps:
       - attach_workspace:

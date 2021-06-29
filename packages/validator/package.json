@@ -13,9 +13,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "ajv": "6.11.0",
-    "eslint": "6.8.0",
-    "prettier": "1.19.1"
+    "ajv": "8.6.0",
+    "eslint": "7.28.0",
+    "prettier": "2.3.1"
   },
   "prettier": {
     "semi": false,

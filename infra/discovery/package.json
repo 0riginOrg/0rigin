@@ -5,7 +5,7 @@
   "author": "Origin Protocol Inc",
   "license": "MIT",
   "engines": {
-    "node": "10.x"
+    "node": "14.x"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
     "url": "https://github.com/OriginProtocol/origin/issues"
   },
   "dependencies": {
-    "@google-cloud/pubsub": "1.5.0",
+    "@google-cloud/pubsub": "2.13.0",
     "@origin/graphql": "^0.1.1",
     "@origin/growth-shared": "^0.1.0",
     "@origin/identity": "^0.1.0",
@@ -24,12 +24,12 @@
     "apollo-server-express": "2.12.0",
     "bs58": "4.0.1",
     "cors": "2.8.5",
-    "dotenv": "8.2.0",
+    "dotenv": "10.0.0",
     "elasticsearch": "16.6.0",
     "envkey": "1.2.7",
     "esm": "3.2.25",
     "express": "4.17.1",
-    "express-prom-bundle": "5.1.5",
+    "express-prom-bundle": "6.3.6",
     "graphql-iso-date": "3.6.1",
     "graphql-tag": "2.10.3",
     "graphql-type-json": "0.3.1",
@@ -37,13 +37,13 @@
     "lodash-es": "4.17.15",
     "logplease": "1.2.15",
     "morgan": "1.9.1",
-    "p-limit": "2.2.2",
+    "p-limit": "3.1.0",
     "per-env": "1.0.2",
-    "pg": "7.18.1",
+    "pg": "8.6.0",
     "pg-hstore": "2.3.3",
     "redis": "2.8.0",
-    "sequelize": "5.21.4",
-    "sequelize-cli": "5.5.1",
+    "sequelize": "6.6.2",
+    "sequelize-cli": "6.2.0",
     "url": "0.11.0",
     "util": "0.12.1",
     "web3": "1.0.0-beta.34"
@@ -51,12 +51,12 @@
   "devDependencies": {
     "chai": "4.2.0",
     "chai-things": "0.2.0",
-    "chalk": "3.0.0",
-    "mocha": "7.0.1",
+    "chalk": "4.1.1",
+    "mocha": "9.0.0",
     "nodemon": "2.0.2",
-    "prettier": "1.19.1",
-    "rewire": "4.0.1",
-    "sinon": "8.1.1"
+    "prettier": "2.3.1",
+    "rewire": "5.0.0",
+    "sinon": "11.1.1"
   },
   "scripts": {
     "lint": "eslint '**/*.js' && npm run prettier:check",

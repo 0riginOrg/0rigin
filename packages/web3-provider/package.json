@@ -25,9 +25,9 @@
     "@origin/ipfs": "^0.1.0",
     "@origin/services": "^0.1.0",
     "cross-fetch": "3.0.4",
-    "eslint": "6.8.0",
-    "mocha": "7.0.1",
-    "prettier": "1.19.1"
+    "eslint": "7.28.0",
+    "mocha": "9.0.0",
+    "prettier": "2.3.1"
   },
   "prettier": {
     "semi": false,

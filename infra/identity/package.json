@@ -3,7 +3,7 @@
   "description": "Origin Identity",
   "version": "0.1.0",
   "engines": {
-    "node": "10.x"
+    "node": "14.x"
   },
   "author": "Origin Protocol Inc",
   "license": "MIT",
@@ -12,13 +12,13 @@
   },
   "dependencies": {
     "@origin/ipfs": "^0.1.0",
-    "dotenv": "8.2.0",
+    "dotenv": "10.0.0",
     "envkey": "1.2.7",
     "lodash": "4.17.15",
     "logplease": "1.2.15",
-    "pg": "7.18.1",
-    "sequelize": "5.21.4",
-    "sequelize-cli": "5.5.1"
+    "pg": "8.6.0",
+    "sequelize": "6.6.2",
+    "sequelize-cli": "6.2.0"
   },
   "devDependencies": {
   },

@@ -3,7 +3,7 @@
   "description": "Origin distributed cron jobs framework",
   "version": "0.1.0",
   "engines": {
-    "node": "10.x"
+    "node": "14.x"
   },
   "author": "Origin Protocol, Inc.",
   "license": "MIT",
@@ -14,19 +14,19 @@
     "@origin/contracts": "^0.8.6",
     "@origin/consistency": "^0.1.0",
     "@origin/growth": "^0.1.0",
-    "@sendgrid/mail": "6.5.2",
+    "@sendgrid/mail": "7.4.4",
     "bull": "3.12.1",
     "cross-fetch": "3.0.4",
-    "dotenv": "8.2.0",
+    "dotenv": "10.0.0",
     "envkey": "1.2.7",
     "logplease": "1.2.15",
     "per-env": "1.0.2",
     "tmp": "0.1.0"
   },
   "devDependencies": {
-    "mocha": "7.0.1",
+    "mocha": "9.0.0",
     "nodemon": "2.0.2",
-    "prettier": "1.19.1"
+    "prettier": "2.3.1"
   },
   "scripts": {
     "lint": "eslint . && npm run prettier:check",

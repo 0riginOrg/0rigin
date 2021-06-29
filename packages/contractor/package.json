@@ -16,10 +16,10 @@
     "singleQuote": true
   },
   "dependencies": {
-    "commander": "^4.0.1",
+    "commander": "^7.0.0",
     "web3": "^1.2.4"
   },
   "devDependencies": {
-    "prettier": "1.19.1"
+    "prettier": "2.3.1"
   }
 }

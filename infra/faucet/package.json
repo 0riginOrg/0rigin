@@ -5,7 +5,7 @@
   "author": "Origin Protocol Inc",
   "license": "MIT",
   "engines": {
-    "node": "10.x"
+    "node": "14.x"
   },
   "repository": {
     "type": "git",
@@ -26,20 +26,20 @@
   "dependencies": {
     "@origin/identity": "^0.1.0",
     "@origin/token": "^0.1.0",
-    "dotenv": "8.2.0",
+    "dotenv": "10.0.0",
     "envkey": "1.2.7",
     "express": "4.17.1",
     "logplease": "1.2.15",
     "per-env": "1.0.2",
-    "pg": "7.18.1",
-    "rate-limiter-flexible": "1.3.2",
-    "sequelize": "5.21.4",
-    "sequelize-cli": "5.5.1",
+    "pg": "8.6.0",
+    "rate-limiter-flexible": "2.2.2",
+    "sequelize": "6.6.2",
+    "sequelize-cli": "6.2.0",
     "web3": "1.0.0-beta.34"
   },
   "devDependencies": {
     "chai": "4.2.0",
-    "mocha": "7.0.1",
+    "mocha": "9.0.0",
     "nodemon": "2.0.2"
   },
   "prettier": {
