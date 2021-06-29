@@ -76,6 +76,12 @@ const messageTemplates = {
         body: template(
           'Your transaction for <%= listing.title %> has been completed.'
         )
+      },
+      OfferData: {
+        title: template('New Review for <%= listing.title %>'),
+        body: template(
+          'A review has been left on your transaction for <%= listing.title %>.'
+        )
       }
     },
     email: {
@@ -127,6 +133,15 @@ const messageTemplates = {
         text: template(
           fs.readFileSync(`${templateDir}/seller-OfferFinalized.txt`).toString()
         )
+      },
+      OfferData: {
+        subject: template('New Review for <%= listing.title %>'),
+        mjml: template(
+          fs.readFileSync(`${templateDir}/buyer-OfferReview.mjml`).toString()
+        ),
+        text: template(
+          fs.readFileSync(`${templateDir}/buyer-OfferReview.txt`).toString()
+        )
       }
     }
   },
@@ -154,12 +169,6 @@ const messageTemplates = {
         title: template('Dispute Resolved for <%= listing.title %>'),
         body: template(
           'A ruling has been issued on your disputed transaction for <%= listing.title %>.'
-        )
-      },
-      OfferData: {
-        title: template('New Review for <%= listing.title %>'),
-        body: template(
-          'A review has been left on your transaction for <%= listing.title %>.'
         )
       }
     },
@@ -198,15 +207,6 @@ const messageTemplates = {
         ),
         text: template(
           fs.readFileSync(`${templateDir}/buyer-OfferRuling.txt`).toString()
-        )
-      },
-      OfferData: {
-        subject: template('New Review for <%= listing.title %>'),
-        mjml: template(
-          fs.readFileSync(`${templateDir}/buyer-OfferReview.mjml`).toString()
-        ),
-        text: template(
-          fs.readFileSync(`${templateDir}/buyer-OfferReview.txt`).toString()
         )
       }
     }

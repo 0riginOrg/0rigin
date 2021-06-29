@@ -8,6 +8,7 @@ const MobileRegistry = require('../src/models/index').MobileRegistry
 const NotificationLog = require('../src/models').NotificationLog
 
 const OfferAccepted = require('./fixtures/OfferAccepted.json')
+const OfferData = require('./fixtures/OfferData.json')
 
 describe('Email and MobilePush notifications for Marketplace events', () => {
   before(async () => {
@@ -72,6 +73,25 @@ describe('Email and MobilePush notifications for Marketplace events', () => {
     expect(logEmail).to.be.an('object')
     const logMobile = await NotificationLog.findOne({
       where: { ethAddress: this.buyer, channel: 'mobile-ios' }
+    })
+    expect(logMobile).to.be.an('object')
+  })
+
+  it(`Should send an email and a mobile push notification for a review given by buyer`, async () => {
+    await request(app)
+      .post('/events')
+      .send(OfferData)
+      .expect(200)
+
+    // For a review given, only the seller gets notified.
+    // There should be 2 entries in notification_log, one for email and the
+    // other for the mobile push.
+    const logEmail = await NotificationLog.findOne({
+      where: { ethAddress: this.seller, channel: 'email' }
+    })
+    expect(logEmail).to.be.an('object')
+    const logMobile = await NotificationLog.findOne({
+      where: { ethAddress: this.seller, channel: 'mobile-ios' }
     })
     expect(logMobile).to.be.an('object')
   })
