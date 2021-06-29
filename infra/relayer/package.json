@@ -14,7 +14,7 @@
     "@origin/contracts": "^0.8.6",
     "@origin/ip2geo": "^0.1.0",
     "@origin/web3-provider": "^0.1.0",
-    "@sentry/node": "5.15.4",
+    "@sentry/node": "5.30.0",
     "cors": "2.8.5",
     "dotenv": "8.2.0",
     "envkey": "1.2.7",
