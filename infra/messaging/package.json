@@ -55,7 +55,7 @@
     "pg-hstore": "^2.3.3",
     "prettier": "^1.18.2",
     "rate-limiter-flexible": "^1.0.0",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "sequelize": "^5.8.12",
     "sequelize-cli": "^5.5.0",
     "superagent": "^5.1.0",
