@@ -63,10 +63,7 @@ if (app.get('env') === 'production') {
 // Configure CORS in Heroku, outside of Heroku this is handled by Kubernetes nginx ingress
 if (process.env.HEROKU) {
   // Whitelisted domains
-  const corsWhitelist = [
-    'https://investor.originprotocol.com',
-    'https://team.originprotocol.com'
-  ]
+  const corsWhitelist = process.env.CORS_WHITELIST.split(/,\s*/)
 
   app.use(
     cors({
