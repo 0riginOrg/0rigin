@@ -54,7 +54,7 @@
     "fbt-runtime": "^0.9.4",
     "fingerprintjs2": "^2.1.0",
     "graphql-tag": "^2.10.1",
-    "jest-docblock": "^25.0.0",
+    "jest-docblock": "^27.0.0",
     "json-prune": "^1.1.0",
     "myetherwallet-blockies": "^0.1.1",
     "prettier": "^1.19.1",
