@@ -19,7 +19,7 @@
     "fast-xml-parser": "^3.16.0",
     "ipfs-http-client": "^41.0.1",
     "jsdom": "^16.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.20",
     "node-fetch": "^2.6.0",
     "nodemon": "^2.0.2",
     "prettier": "^1.19.1",

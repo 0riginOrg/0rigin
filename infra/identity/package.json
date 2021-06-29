@@ -14,7 +14,7 @@
     "@origin/ipfs": "^0.1.0",
     "dotenv": "8.2.0",
     "envkey": "1.2.7",
-    "lodash": "4.17.15",
+    "lodash": "4.17.21",
     "logplease": "1.2.15",
     "pg": "7.18.1",
     "sequelize": "5.21.4",

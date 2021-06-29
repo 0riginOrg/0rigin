@@ -34,7 +34,7 @@
     "graphql-tag": "2.10.3",
     "graphql-type-json": "0.3.1",
     "http": "0.0.0",
-    "lodash-es": "4.17.15",
+    "lodash-es": "4.17.21",
     "logplease": "1.2.15",
     "morgan": "1.9.1",
     "p-limit": "2.2.2",

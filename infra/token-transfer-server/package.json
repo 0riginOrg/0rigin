@@ -41,7 +41,7 @@
     "express-validator": "^6.4.0",
     "helmet": "^3.22.0",
     "jsonwebtoken": "^8.5.1",
-    "lodash-es": "^4.17.15",
+    "lodash-es": "^4.17.20",
     "logplease": "^1.2.15",
     "mjml": "^4.6.2",
     "moment": "^2.24.0",

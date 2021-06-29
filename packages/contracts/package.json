@@ -50,7 +50,7 @@
     "chalk": "3.0.0",
     "cli-table": "0.3.1",
     "ganache-core": "2.4.0",
-    "lodash-es": "4.17.15",
+    "lodash-es": "4.17.21",
     "mocha": "7.0.1",
     "prettier-eslint-cli": "5.0.0",
     "solc": "0.5.14",
